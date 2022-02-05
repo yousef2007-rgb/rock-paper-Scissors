@@ -1,0 +1,176 @@
+@media (max-width: 500px) {
+  .rockContainer {
+    bottom: -20px;
+    right: 0;
+  }
+  .paperContainer {
+    top: 50px;
+    right: -15px;
+  }
+  .scissorsContainer {
+    top: -50px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lizardContainer {
+    bottom: -20px;
+    left: 0;
+  }
+  .spockContainer {
+    top: 50px;
+    left: -15px;
+  }
+}
+
+@media (min-width: 500px) {
+  .rockContainer {
+    bottom: -20px;
+    right: 0;
+  }
+  .paperContainer {
+    top: 50px;
+    right: -50px;
+  }
+  .scissorsContainer {
+    top: -50px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lizardContainer {
+    bottom: -20px;
+    left: 0;
+  }
+  .spockContainer {
+    top: 50px;
+    left: -50px;
+  }
+}
+
+.ChooseContainer {
+  background-image: url("../images/bg-pentagon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+}
+
+.rockContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  border: 15px solid #dc2e4e;
+  -webkit-box-shadow: 2px 6px #dd405d;
+          box-shadow: 2px 6px #dd405d;
+  background-origin: padding-box;
+  cursor: pointer;
+}
+
+.paperContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  border: 15px solid #4865f4;
+  -webkit-box-shadow: 2px 6px #5671f5;
+          box-shadow: 2px 6px #5671f5;
+  background-origin: padding-box;
+  cursor: pointer;
+}
+
+.scissorsContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  border: 15px solid #ec9e0e;
+  -webkit-box-shadow: 2px 6px #eca922;
+          box-shadow: 2px 6px #eca922;
+  background-origin: padding-box;
+  cursor: pointer;
+}
+
+.lizardContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  border: 15px solid #834fe3;
+  -webkit-box-shadow: 2px 6px #8c5de5;
+          box-shadow: 2px 6px #8c5de5;
+  background-origin: padding-box;
+  cursor: pointer;
+}
+
+.spockContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  border: 15px solid #40b9ce;
+  -webkit-box-shadow: 2px 6px #52bed1;
+          box-shadow: 2px 6px #52bed1;
+  background-origin: padding-box;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Choose.css.map */
